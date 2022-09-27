@@ -1,3 +1,4 @@
+// This solution is also known as kadane's Algorithm. In this we will first calculate the max sum of subarrays ending with each element and then later find the max out of them
 class Solution {
     public int maxSubArray(int[] nums) {
         int res = nums[0];
